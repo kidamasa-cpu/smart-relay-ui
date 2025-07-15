@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Smart Relay</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <style>
+    body { font-family: sans-serif; text-align: center; padding: 30px; }
+    button { font-size: 24px; padding: 15px 40px; margin: 10px; }
+  </style>
+</head>
+<body>
+  <h2>Smart Relay Control</h2>
+  <button onclick="toggleRelay(true)">Relay ON</button>
+  <button onclick="toggleRelay(false)">Relay OFF</button>
+  <script src="main.js"></script>
+</body>
+</html>
